@@ -1,0 +1,31 @@
+# Node dependencies (if you use npm)
+node_modules/
+
+# clasp credentials (do NOT commit your OAuth tokens)
+.clasprc.json
+
+# Environment / secret files
+.env
+.env.*.local
+credentials.json
+service-account.json
+
+# Build output (if you transpile/compile)
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Mac/Linux swap or temp files
+*~
+*.swp
